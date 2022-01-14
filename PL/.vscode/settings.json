@@ -1,0 +1,16 @@
+{
+    "java.project.sourcePaths": [
+        "PL_Lab_9/src",
+        "PL_Lab_8/src",
+        "PL_Lab_12/src",
+        "PL_Lab_11/src",
+        "PL_Lab_10/src",
+        "PL_Homework_9/src",
+        "PL_Homework_8/src",
+        "PL_Homework_7/src",
+        "PL_Homework_6/src",
+        "PL_Homework_2/src",
+        "PL_Homework_10/src",
+        "PL_Homework_1/src"
+    ]
+}
