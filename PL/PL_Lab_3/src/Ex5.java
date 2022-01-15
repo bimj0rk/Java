@@ -11,7 +11,7 @@ public class Ex5 {
         for(int i = 0; i < 3; i++) {
             for(int j = 0; j < 3; j++) {
                 sumMatrix[i][j] = matrix1[i][j] + matrix2[i][j];
-                System.out.println(sumMatrix[i][j] + " ");
+                System.out.print(sumMatrix[i][j] + " ");
             }
             System.out.println();
         }
@@ -22,7 +22,7 @@ public class Ex5 {
                 for(int k = 0; k< 3; k++) {
                     productMatrix[i][j] = matrix1[i][k] * matrix2[k][j];
                 }
-                System.out.println(productMatrix[i][j] + " ");
+                System.out.print(productMatrix[i][j] + " ");
             }
             System.out.println();
         }

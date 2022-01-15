@@ -1,7 +1,7 @@
 //2
 
 public class TestComplex {
-    public static void main(String args[]){
+    public static void main(String[] args){
         double sumR = 0, sumI = 0, subR = 0, subI = 0, multR = 0, multI = 0, divR = 0, divI = 0;
         Complex complex1 = new Complex(2, 3);
         Complex complex2 = new Complex(4, 5);

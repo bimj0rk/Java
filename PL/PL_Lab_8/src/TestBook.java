@@ -1,5 +1,5 @@
 public class TestBook {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Author author1 = new Author("Author", "Author@upb.ro", 'm');
         Book book1 = new Book("Java for dummies", author1, 19.95, 1000);
         Book book2 = new Book("C for dummies", new Author("Teacher", "teacher@upb.ro", 'm'),

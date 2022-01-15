@@ -1,7 +1,7 @@
 //1
 
 public class TestRational {
-    public static void main(String args[]){
+    public static void main(String[] args){
         int sumN = 0, sumD = 0, divN = 0, divD = 0, subN = 0, subD = 0, multN = 0, multD = 0;
         Rational rational1 = new Rational(2, 3);
         Rational rational2 = new Rational(4, 5);

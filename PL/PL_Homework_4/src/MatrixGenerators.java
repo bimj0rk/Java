@@ -93,7 +93,7 @@ public class MatrixGenerators {
         return m4;
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the size of the matrixes: ");
