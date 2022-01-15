@@ -41,7 +41,7 @@ public class Ex1 {
         return true;
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Please write the number n: ");

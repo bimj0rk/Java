@@ -1,5 +1,5 @@
 class VideoTest{
-    public static void main (String args[]){
+    public static void main (String[] args){
         Video video1 = new Video("James Bond");
         Video video2 = new Video("Avengers: Endgame", 190);
 

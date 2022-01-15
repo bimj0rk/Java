@@ -2,7 +2,7 @@
 
 public class Ex4 {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int array[] = {1, 2, -3, 2, 3, 4, -6, 8, 2, 3, 5, 1, -8, 6};
 

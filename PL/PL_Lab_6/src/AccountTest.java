@@ -2,7 +2,7 @@
 
 class AccountTest{
 
-    public static void main (String args[]){
+    public static void main (String[] args){
         String accNumber1 = "15BHF67";
         String accNumber2 = "674GHR2";
 

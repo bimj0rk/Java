@@ -13,7 +13,7 @@ public class Ex5 {
         System.out.println(sFinal);
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your string: ");
         String s = scan.nextLine();

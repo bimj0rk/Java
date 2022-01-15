@@ -2,7 +2,7 @@
 
 class FleetTest{
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         double startKM1 = 100;
         double endKM1 = 300;

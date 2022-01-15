@@ -1,5 +1,5 @@
 public class FormTest {
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Form[] form = new Form[3];
         form[0] = new Point(0, 0);

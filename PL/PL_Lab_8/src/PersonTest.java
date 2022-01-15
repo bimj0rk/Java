@@ -1,5 +1,5 @@
 public class PersonTest {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Person person1 = new Person("Adrian", "Campean", 19);
         Person person2 = new Person("Irina", "Cerghilan", 18);
         Person person3 = new Person("Popescu", "Ion", 35);
