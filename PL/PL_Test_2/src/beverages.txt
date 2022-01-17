@@ -1,0 +1,4 @@
+Coca-Cola, sugar water, 0745134, 3.99, Sep 14 2021, Jun 11 2022, 7
+Fanta, sugar water orange, 537189, 3.99, Oct 15 2021, Jul 7 2022, 8
+Sprite, sugar water lime, 351456, 3.99, Nov 4 2021, Jan 1 2022, 1
+Dorna, water, 4245190, 1.99, Aug 31 2021, Feb 5 2022, 0 
