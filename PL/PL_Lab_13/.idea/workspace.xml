@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28a965d5-83ed-4e30-a9b4-e1d7d3bd90c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/PL_Homework_12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/src/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Homework_12/src/WeatherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Lab_11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Lab_12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Lab_12/testFinal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Lab_8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL_Lab_9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_1/src/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_1/src/FirstHW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_1/src/Media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_1/src/NameAndBirthday.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_11/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_2/src/SecondLab1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Homework_2/src/SecondLab2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/Ex1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/Ex2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/Ex3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/Ex4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_Lab_12/numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/numbersFinal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_Lab_12/numbersFinal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_Lab_12/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/testFinal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_Homework_12/weather.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/zip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_Lab_12/zip.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Lab_12/src/zipText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PL_Lab_12/zipText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComplexNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntegerNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Minibus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RealNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Taxable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Truck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VehicleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Test_1/src/Lottery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Test_2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Test_2/src/Beverages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Test_2/src/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_Test_2/src/Shop.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="24ExHJ6NgN4qmU6APk4adTGPmce" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28a965d5-83ed-4e30-a9b4-e1d7d3bd90c8" name="Changes" comment="" />
+      <created>1643209457448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643209457448</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

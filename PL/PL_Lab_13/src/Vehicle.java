@@ -125,12 +125,12 @@ class Minibus extends Vehicle{
     }
 }
 
-class Bus extends Vehicle{
+class Bus extends Vehicle {
     private double price;
     private String country;
     private String name;
 
-    public Bus(double p, String c, String n){
+    public Bus(double p, String c, String n) {
         this.price = p;
         this.country = c;
         this.name = n;
@@ -148,7 +148,7 @@ class Bus extends Vehicle{
 
     @Override
     public double computeCustomTax() {
-        if(!"Romania".equals(this.country)) return (10.0 * this.price) / 100;
+        if (!"Romania".equals(this.country)) return (10.0 * this.price) / 100;
         return 1.0;
     }
 
@@ -165,7 +165,8 @@ class Bus extends Vehicle{
     @Override
     public int compareTo(Object o) {
         Vehicle obj = (Vehicle) o;
-        if(obj.computeTotalTax() == this.computeTotalTax()) return (int)(this.computeTotalTax() - obj.computeTotalTax());
-        return (int)(obj.computeTotalTax() - this.computeTotalTax());
+        if (obj.computeTotalTax() == this.computeTotalTax())
+            return (int) (this.computeTotalTax() - obj.computeTotalTax());
+        return (int) (obj.computeTotalTax() - this.computeTotalTax());
     }
 }
