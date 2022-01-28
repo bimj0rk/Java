@@ -14,6 +14,8 @@ abstract class HardwareProduct {
     public abstract String toString();
 
     public abstract void computePriceInLei();
+
+    public abstract double computeRatioLeiPricePerformance();
 }
 
 class VideoCard extends HardwareProduct{
@@ -37,8 +39,13 @@ class VideoCard extends HardwareProduct{
     }
 
     @Override
+    public double computeRatioLeiPricePerformance(){
+        return super.leiPrice/super.performance;
+    }
+    
+    @Override
     public String toString() {
-        return "VideoCard: price - " + super.leiPrice + ", score - " + super.score + ", performance - " + super.performance; 
+        return "VideoCard: price - " + super.leiPrice + ", score - " + super.score + ", performance - " + super.performance + ", ratio - " + computeRatioLeiPricePerformance(); 
     }
 }
 
@@ -63,7 +70,12 @@ class Monitor extends HardwareProduct{
     }
 
     @Override
+    public double computeRatioLeiPricePerformance(){
+        return super.leiPrice/super.performance;
+    }
+
+    @Override
     public String toString() {
-        return "Monitor: price - " + super.leiPrice + ", score - " + super.score + ", performance - " + super.performance; 
+        return "Monitor: price - " + super.leiPrice + ", score - " + super.score + ", performance - " + super.performance + ", ratio - " + computeRatioLeiPricePerformance(); 
     }
 }
