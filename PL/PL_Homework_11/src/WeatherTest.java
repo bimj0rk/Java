@@ -9,7 +9,6 @@ public class WeatherTest{
 
     public static void main(String[] args){
         ArrayList<String> weatherList = new ArrayList<String>();
-        String currentLine;
         int noOfLines = 0;
         try{
             File file = new File("weather.txt");
@@ -19,9 +18,6 @@ public class WeatherTest{
             //1
             while(scan.hasNextLine()) {
                 weatherList.add(scan.nextLine());
-                currentLine = weatherList.get(noOfLines);
-                currentLine = currentLine.replaceAll("\\s+", ",");
-                weatherList.set(noOfLines, currentLine);
                 noOfLines++;
             }
 
@@ -29,7 +25,7 @@ public class WeatherTest{
 
             for(int i = 0; i < noOfLines; i++){
                 String line = weatherList.get(i);
-                String[] parts = line.split(",");
+                String[] parts = line.split("\\s+");
                 weatherArray[i] = new Weather(Integer.parseInt(parts[0]), Integer.parseInt(parts[1]),
                         Integer.parseInt(parts[2]), Integer.parseInt(parts[3]), Integer.parseInt(parts[4]),
                         Integer.parseInt(parts[5]), Integer.parseInt(parts[6]));
