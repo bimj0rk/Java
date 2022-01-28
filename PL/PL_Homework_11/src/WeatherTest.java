@@ -16,6 +16,7 @@ public class WeatherTest{
             Scanner inputScan = new Scanner(System.in);
 
             //1
+
             while(scan.hasNextLine()) {
                 weatherList.add(scan.nextLine());
                 noOfLines++;
@@ -34,15 +35,14 @@ public class WeatherTest{
             //2
 
             for(int j = 1950; j <= 2001; j++){
-                int prec = 0, snow = 0, noOfEntries = 0;
+                int prec = 0, snow = 0;
                 for(int i = 0; i < noOfLines; i++){
                     if(j == weatherArray[i].getYear()){
                         prec += weatherArray[i].getPrec();
                         snow += weatherArray[i].getSnow();
-                        noOfEntries++;
                     }
                 }
-                int avgPrec = prec / noOfEntries, avgSnow = snow / noOfEntries;
+                int avgPrec = prec / noOfLines, avgSnow = snow / noOfLines;
                 System.out.println("Avg snow and precipitation for year " + j + " is " + avgSnow + ", " + avgPrec);
             }
 
@@ -56,11 +56,11 @@ public class WeatherTest{
                 if(month == weatherArray[i].getMonth() && year == weatherArray[i].getYear()){
                     if(weatherArray[i].getHighTemp() > highest) highest = weatherArray[i].getHighTemp();
                     if(weatherArray[i].getLowTemp() < lowest) lowest = weatherArray[i].getLowTemp();
-                }
+                } else System.out.println("error");
             }
 
-            System.out.println("For month " + month + " and year " + year + " the highest temperature is " + convert(highest) +
-                    " and the lowest is " + convert(lowest));
+            System.out.println("For month " + month + " and year " + year + " the highest temperature is " + highest +
+                    " and the lowest is " + lowest);
 
             scan.close();
         }catch(Exception e){

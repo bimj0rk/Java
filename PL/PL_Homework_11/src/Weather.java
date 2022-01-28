@@ -8,8 +8,8 @@ public class Weather {
     private int snow;
 
     public Weather(int m, int d, int y, int hT, int lT, int p, int s){
-        this.day = d;
         this.month = m;
+        this.day = d;
         this.year = y;
         this.highTemp = hT;
         this.lowTemp = lT;
