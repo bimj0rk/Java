@@ -15,6 +15,7 @@ public class Ex1 {
                 j++;
             }
         }
+
         while (i < length1){
             array3[k] = array1[i];
             k++;
@@ -22,7 +23,7 @@ public class Ex1 {
         }
 
         while (j < length2){
-            array3[k++] = array2[j++];
+            array3[k] = array2[j];
             k++;
             j++;
         }

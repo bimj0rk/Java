@@ -15,5 +15,7 @@ public class HospitalTest {
         System.out.println(hospital.getAvailableBeds());
 
         hospital.removePatient();
+
+        System.out.println(hospital.getAvailableBeds());
     } 
 }

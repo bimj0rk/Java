@@ -1,16 +1,4 @@
-class Patient{
-    protected String name;
-    protected String condition;
-    protected boolean contagious;
-
-    public Patient(String n, String cnd, boolean ctg){
-        this.name = n;
-        this.condition = cnd;
-        this.contagious = ctg;
-    }
-}
-
-public class Hospital {
+public class Hospital{
     private Patient[] patients = new Patient[100];
     private int numberOfBeds;
     private int noOfOccupiedBeds;
@@ -21,19 +9,19 @@ public class Hospital {
     }
 
     public void addPatient(Patient p){
+        this.patients[this.noOfOccupiedBeds] = p;
         this.numberOfBeds--;
         this.noOfOccupiedBeds++;
-        this.patients[this.noOfOccupiedBeds] = p;
     }
 
     public Patient[] getContagiousPatients(){
         int noOfContagiousPatients = 0, j = 0;
-        for(int i = 0; i < numberOfBeds; i++){
+        for(int i = 0; i < noOfOccupiedBeds; i++){
             if(patients[i].contagious) noOfContagiousPatients++;
         }
 
         Patient[] contagiusPatients = new Patient[noOfContagiousPatients];
-        for(int i = 0; i < numberOfBeds; i++){
+        for(int i = 0; i < noOfOccupiedBeds; i++){
             if(patients[i].contagious){
                 contagiusPatients[j] = patients[i];
                 j++;
@@ -54,5 +42,17 @@ public class Hospital {
                 this.numberOfBeds++;
             }
         }
+    }
+}
+
+class Patient{
+    protected String name;
+    protected String condition;
+    protected boolean contagious;
+
+    public Patient(String n, String cnd, boolean ctg){
+        this.name = n;
+        this.condition = cnd;
+        this.contagious = ctg;
     }
 }
