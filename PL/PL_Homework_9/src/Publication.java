@@ -30,7 +30,7 @@ class Journal extends Publication{
 
     @Override
     public double calculateScore() {
-        return (this.impactFactor * 0.5)/this.getNumberOfAuthors();
+        return (this.impactFactor * 0.5)/super.getNumberOfAuthors();
     }
 }
 

@@ -1,10 +1,9 @@
-public class Sorted {
+public class Sorted{
 
     public static boolean isSorted(int[] a){
-        boolean isSorted = false;
-        for(int i = 1; i < a.length; i++){
-            if(a[i-1] > a[i]) isSorted = true;
-            else isSorted = false;
+        boolean isSorted = true;
+        for(int i = 0; i < a.length - 1; i++){
+            if(a[i] < a[i+1]) isSorted = false;
         }
         return isSorted;
     }
