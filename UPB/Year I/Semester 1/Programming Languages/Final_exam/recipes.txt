@@ -1,0 +1,3 @@
+salad, potatoes, carrots, salad, 3
+soup, salt, water, carrots, 0
+fried chicken, chicken, oil, salt, 2

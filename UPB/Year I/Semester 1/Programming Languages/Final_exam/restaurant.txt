@@ -1,0 +1,1 @@
+Recipes that can be created: Name of the recipe: salad, ingredients: potatoes, carrots, salad, quantity that can be produced: 3, Name of the recipe: fried chicken, ingredients: chicken, oil, salt, quantity that can be produced: 2, 
